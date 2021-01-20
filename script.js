@@ -1,3 +1,10 @@
+$(document).ready(function () {
+    $('.owl-carousel').owlCarousel({
+        items: 1,
+        dots: false,
+        margin: 15
+    });
+});
 
 const searchBox = document.querySelector('#query-field');
 const countryName = document.querySelector('#country');
@@ -8,7 +15,7 @@ const recoveredNumbers = document.querySelector('#recovered-data');
 const deathNumbers = document.querySelector('#death-data');
 
 const apiData = {
-    base : 'https://corona.lmao.ninja/v2/countries/'
+    base: 'https://corona.lmao.ninja/v2/countries/'
 }
 
 function showCovidData(event) {

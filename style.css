@@ -23,7 +23,7 @@ body .container-fluid {
 
 body .container-fluid .covid-tracker-app {
   background-color: white;
-  width: 336px;
+  width: 340px;
   -webkit-box-shadow: 0px 0px 47px rgba(147, 147, 147, 0.53);
           box-shadow: 0px 0px 47px rgba(147, 147, 147, 0.53);
   border-radius: 28px;
@@ -80,13 +80,15 @@ body .container-fluid .covid-tracker-app .help-container {
   padding: 0 20px;
 }
 
+body .container-fluid .covid-tracker-app .help-container .owl-stage-outer {
+  border-radius: 23px;
+}
+
 body .container-fluid .covid-tracker-app .help-container .checkup-sec {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   background: #fb5c71;
-  -webkit-box-shadow: 0px 9px 16px rgba(191, 181, 181, 0.67);
-          box-shadow: 0px 9px 16px rgba(191, 181, 181, 0.67);
   border-radius: 23px;
   color: white;
   padding: 10px 10px;
@@ -97,6 +99,7 @@ body .container-fluid .covid-tracker-app .help-container .checkup-sec {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 150px;
 }
 
 body .container-fluid .covid-tracker-app .help-container .checkup-sec img {
